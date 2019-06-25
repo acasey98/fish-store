@@ -6,6 +6,10 @@ import Home from '../components/Home/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 
+import fbConnection from '../helpers/data/connection';
+
+fbConnection();
+
 class App extends React.Component {
   state = {
     authed: false,
