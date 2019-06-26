@@ -4,6 +4,7 @@ import firebase from 'firebase/app';
 
 import Auth from '../components/Auth/Auth';
 import Home from '../components/Home/Home';
+
 import MyNavbar from '../components/MyNavbar/MyNavbar';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
