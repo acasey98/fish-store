@@ -7,7 +7,8 @@
   "fish2": 2,
   "fish4": 2
   },
-  "uid": "5Nh3mWU4C4ML0cuANZ7GSZxN9fo2"
+  "uid": "5Nh3mWU4C4ML0cuANZ7GSZxN9fo2",
+  "name": "order0 name"
   },
   "order1": {
   "dateTime": 1511090973283,
@@ -17,7 +18,8 @@
   "fish3": 1,
   "fish4": 6
   },
-  "uid": "12345"
+  "uid": "12345",
+  "name": "order1 name"
   },
   "order2": {
   "dateTime": 1525090973289,
@@ -25,7 +27,8 @@
   "fish9": 1,
   "fish8": 22
   },
-  "uid": "OC9nsILmqiPmi5V9tDhBDs6eyZs1"
+  "uid": "OC9nsILmqiPmi5V9tDhBDs6eyZs1",
+  "name": "order2 name"
   },
   "order3": {
   "dateTime": 1523090972286,
@@ -33,7 +36,8 @@
   "fish4": 2,
   "fish9": 1
   },
-  "uid": "12345"
+  "uid": "12345",
+  "name": "order3 name"
   },
   "order4": {
   "dateTime": 1521090963286,
@@ -48,6 +52,7 @@
   "fish8": 8,
   "fish9": 9
   },
-  "uid": "OC9nsILmqiPmi5V9tDhBDs6eyZs1"
+  "uid": "OC9nsILmqiPmi5V9tDhBDs6eyZs1",
+  "name": "order4 name"
   }
 }

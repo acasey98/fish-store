@@ -14,7 +14,7 @@ class Orders extends React.Component {
   componentDidMount() {
     ordersData.getMyOrders(firebase.auth().currentUser.uid)
       .then(orders => this.setState({ orders }))
-      .catch(err => console.error('can;t get orders', err));
+      .catch(err => console.error('cant get orders', err));
   }
 
   render() {
@@ -28,7 +28,7 @@ class Orders extends React.Component {
         <table className="table">
           <thead>
             <tr>
-              <th scope="col">Order #</th>
+              <th scope="col">Order Name</th>
               <th scope="col">Date</th>
               <th scope="col"># Fish</th>
               <th scope="col"></th>
