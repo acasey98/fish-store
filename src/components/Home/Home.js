@@ -44,6 +44,12 @@ class Home extends React.Component {
     this.setState({ fishOrder: fishOrderCopy });
   }
 
+  removeFromOrder = (fishId) => {
+    const fishOrderCopy = { ...this.state.fishOrder };
+    delete fishOrderCopy[fishId];
+    this.setState({ fishOrder: fishOrderCopy });
+  }
+
   render() {
     const { fishes, orders, fishOrder } = this.state;
     return (
@@ -56,6 +62,7 @@ class Home extends React.Component {
             <NewOrder
               fishes={fishes}
               fishOrder={fishOrder}
+              removeFromOrder={this.removeFromOrder}
             />
           </div>
           <div className="col">
