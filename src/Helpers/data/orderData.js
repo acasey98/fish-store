@@ -21,4 +21,8 @@ const deleteOrder = orderId => axios.delete(`${baseUrl}/orders/${orderId}.json`)
 
 const postOrder = newOrder => axios.post(`${baseUrl}/orders.json`, newOrder);
 
-export default { getMyOrders, deleteOrder, postOrder };
+const editOrder = (orderId, updateOrder) => axios.put(`${baseUrl}/orders/${orderId}.json`, updateOrder);
+
+export default {
+  getMyOrders, deleteOrder, postOrder, editOrder,
+};
