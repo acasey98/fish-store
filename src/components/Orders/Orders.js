@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -12,7 +13,7 @@ static propTypes = {
 
 render() {
   const orderComponents = this.props.orders.map(order => (
-      <OrderRow key={order.id} order={order} deleteOrder={this.props.deleteOrder}/>
+    <OrderRow key={order.id} order={order} deleteOrder={this.props.deleteOrder} selectOrderToEdit={this.props.selectOrderToEdit}/>
   ));
 
   return (
